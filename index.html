@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
-    <title>PythonPune by pythonpune</title>
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <h1>PythonPune</h1>
-        <h2>Pune Pythonistas and their discussions and events.</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/pythonpune" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
+---
+layout: default
+---
         <h1>PythonPune</h1>
 
           <h2>Projects</h2>
@@ -34,10 +9,22 @@
             <li>Pune Startup Directory (Proposed group project)</li>
             </ul>
 
-          <h2>Meetings</h2>
-
+          <h2>Recent Meetings</h2>
             <ul>
-            <li>December 7, 2012</li>
+              {% for post in site.posts %}
+                {% if post.categories contains 'meeting-notes' %}
+                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+
+          <h2>Recent Blog Posts</h2>
+            <ul>
+              {% for post in site.posts %}
+                {% if post.categories contains 'blog' %}
+                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endif %}
+              {% endfor %}
             </ul>
 
           <h2>Recent Discussions</h2>
@@ -49,18 +36,3 @@
               width="900"
               height="700">
             </iframe>
-
-      </section>
-      <section id="footer">
-        <p><em>Page maintained by <a href="https://github.com/dnene" class="user-mention">@dnene</a>. Contact him for corrections / comments / suggestions </em></p>
-      </section>
-    </div>
-
-  </body>
-    <script type="text/javascript">
-      document.getElementById("forum_embed").src =
-        "https://groups.google.com/forum/embed/?place=forum/pythonpune" +
-        "&theme=default&showtabs=false&hideforumtitle=true&showpopout=true" + 
-        encodeURIComponent(window.location.href);
-    </script>
-</html>
