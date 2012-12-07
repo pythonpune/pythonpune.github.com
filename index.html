@@ -28,22 +28,39 @@
       <section id="main_content">
         <h1>PythonPune</h1>
 
-<h2>Discussions</h2>
+          <h2>Projects</h2>
 
-<ul>
-<li>Placeholder for forum discussions </li>
-</ul><h2>Projects</h2>
+            <ul>
+            <li>Pune Startup Directory (Proposed group project)</li>
+            </ul>
 
-<ul>
-<li>Pune Startup Directory</li>
-</ul><h2>Meetings</h2>
+          <h2>Meetings</h2>
 
-<ul>
-<li>December 7, 2012</li>
-</ul><p>Page maintained by <a href="https://github.com/dnene" class="user-mention">@dnene</a>. Contact him for corrections / comments / suggestions </p>
+            <ul>
+            <li>December 7, 2012</li>
+            </ul>
+
+          <h2>Recent Discussions</h2>
+
+            <iframe id="forum_embed"
+              src="javascript:void(0)"
+              scrolling="no"
+              frameborder="0"
+              width="900"
+              height="700">
+            </iframe>
+
+      </section>
+      <section id="footer">
+        <p><em>Page maintained by <a href="https://github.com/dnene" class="user-mention">@dnene</a>. Contact him for corrections / comments / suggestions </em></p>
       </section>
     </div>
 
-    
   </body>
+    <script type="text/javascript">
+      document.getElementById("forum_embed").src =
+        "https://groups.google.com/forum/embed/?place=forum/pythonpune" +
+        "&theme=default&showtabs=false&hideforumtitle=true&showpopout=true" + 
+        encodeURIComponent(window.location.href);
+    </script>
 </html>

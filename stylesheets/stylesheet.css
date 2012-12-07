@@ -245,3 +245,9 @@ a {
 .cf {
   zoom:1;
 }
+
+/* Added by Dhananjay */
+
+#footer p {
+  font-size: 8px;
+}
