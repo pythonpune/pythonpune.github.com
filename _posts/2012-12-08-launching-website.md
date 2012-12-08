@@ -1,7 +1,9 @@
 ---
-layout: default
-title: Launching website for pythonpune
+layout: entry
+title: Website for pythonpune
 category: blog
 ---
-Website launch for pythonpune
+
+We've created a website for pythonpune. Hope this helps put together various information about pythonpune and its activities and discussions in one place from where it can be referred to easily.
+
 
