@@ -120,16 +120,9 @@ Based on this, a general motion was raised to decide
 
 #### 2. Job Posting and Moderations on the google group:
 
-Dhananjay Nene raised a motion to block job postings in the group. After 
-much discussion it was decided that no job postings will be tolerated on 
-the google group.
-Further moderation rule was also added. No post other than Python related
-shall be posted on the group
+Dhananjay Nene raised the matter of job postings in the group. After much discussion it was decided that no job postings will continue to be not allowed on the google group. Another matter discussed was whether posts of non python nature (especially for pune events etc.) should be allowed. It was again decided to continue with the policy that the posts should have some relevance to python.
 
-For convenience in moderation it was decided that, if a signed document 
-is given to any of the  moderators than that member will be exempted from
-moderation. The Nature of the document and process of submission 
-is still open for discussion on the mailing list. 
+For convenience in moderation it was decided that, if a email is sent to any of the  moderators suggesting that the sender will respect that policy than that member settings will be changed to allow posts to be unmoderated. This was primarily done due to prior experience where people often do not remember the policy or are not aware of it and otherwise active participants post topics that are not consistent with the posting policy. The Nature of the email and process of submission is still open for discussion on the mailing list. 
 
 As requested by Dhananjay Nene the number of moderator have been increased, from 
 now onwards **Sushrut Bidwai, Mandar Vaze** and **Aditya Laghate** are the 
