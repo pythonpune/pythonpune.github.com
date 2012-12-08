@@ -80,11 +80,11 @@ Based on this, a general motion was raised to decide
 * Hackathons:<br> 
 	Hackathons can be of 3 types.
 
-	+ Fixed goals: The objective of this hackathon will be to collaborate and 
+	+ _Fixed goals_: The objective of this hackathon will be to collaborate and 
 	complete one mini project at the end of the day
-	+ Free project: Small groups of two to four would pick topics of their 
+	+ _Free project_: Small groups of two to four would pick topics of their 
 	choice to work on. The venue would be organized by the user group.
-	+ Bug bash: Take a open source project or library and solve as many 
+	+ _Bug bash_: Take a open source project or library and solve as many 
 	bugs as possible
 
 	Date, time and infrastructure will be discussed in the mailing list. 
