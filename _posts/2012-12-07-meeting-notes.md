@@ -77,16 +77,17 @@ Based on this, a general motion was raised to decide
 		</tr>
 	</table>
 
-* Hackathons: Hackathons can be of 3 types.
+* Hackathons:<br> 
+	Hackathons can be of 3 types.
 
 	1. Fixed goals: The objective of this hackathon will be to collaborate and 
-		complete one mini project at the end of the day
+	complete one mini project at the end of the day
 	2. Free project: Small groups of two to four would pick topics of their 
-		choice to work on. The venue would be organized by the user group.
+	choice to work on. The venue would be organized by the user group.
 	3. Bug bash: Take a open source project or library and solve as many 
-		bugs as possible
+	bugs as possible
 
-	Date, time and infrastructure will be discussed in the mailing list.<br> 
+	Date, time and infrastructure will be discussed in the mailing list. 
 	Dhananjay Nene and Saager Mhatre have volunteered to try and organise at least one
 		
 * A One day meetup in March
