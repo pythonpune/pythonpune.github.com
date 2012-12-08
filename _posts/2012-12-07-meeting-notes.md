@@ -110,8 +110,8 @@ Based on this, a general motion was raised to decide
 	under the banner of Python startup. The motion was accepted by 
 	the group present and two projects were also suggested
  
-	1. Pune Python website:  lead by Dhananjay Nene and Palak Mathur
-	2. Online Directory of major-minor start-up companies lead by Navin Kabra
+	+ Pune Python website:  lead by Dhananjay Nene and Palak Mathur
+	+ Online Directory of major-minor start-up companies lead by Navin Kabra
 
 
 	By vote of Popularity :) **Satyajit Ranjeev** was
