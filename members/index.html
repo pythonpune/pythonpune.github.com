@@ -12,18 +12,22 @@ layout: default
     <th>Blog</th>
     <th>Homepage</th>
   </tr>
-  {% assign sorted_pages = site.pages | map: 'to_liquid' | sort: 'url' %}
-  {% for page in sorted_pages %}
+  {% assign all_urls = site.pages | map: 'to_liquid' | map: 'url' | sort %}
+  {% for url in all_urls %}
+    {% for page in site.pages %}
       {% capture prefix %}{{page.url | truncate: 15, ''}}{% endcapture%}
       {% if prefix == "/members/pages/" %}
-        <tr>
-          <td><a href="{{page.url}}">{{page.name}}{% if page.twitter_id %} (@{{page.twitter_id}}){% endif %}</a></td>
-          {% if page.github_id %}<td><a href="http://github.com/{{page.github_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
-          {% if page.bitbucket_id %}<td><a href="http://bitbucket.org/{{page.bitbucket_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
-          {% if page.twitter_id %}<td><a href="http://twitter.com/{{page.twitter_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
-          {% if page.blog %}<td><a href="{{page.blog}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
-          {% if page.homepage %}<td><a href="{{page.homepage}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
-        </tr>
+        {% if page.url == url %}
+          <tr>
+            <td><a href="{{page.url}}">{{page.name}}{% if page.twitter_id %} (@{{page.twitter_id}}){% endif %}</a></td>
+            {% if page.github_id %}<td><a href="http://github.com/{{page.github_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
+            {% if page.bitbucket_id %}<td><a href="http://bitbucket.org/{{page.bitbucket_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
+            {% if page.twitter_id %}<td><a href="http://twitter.com/{{page.twitter_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
+            {% if page.blog %}<td><a href="{{page.blog}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
+            {% if page.homepage %}<td><a href="{{page.homepage}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
+          </tr>
+        {% endif %}
       {% endif %}
+    {% endfor %}
   {% endfor %}
 </table>
