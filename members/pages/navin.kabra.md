@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: member
 name: Navin Kabra
 homepage: http://punetech.com/navin
 blog: http://smritiweb.com/navin
