@@ -12,7 +12,7 @@ layout: default
     <th>Blog</th>
     <th>Homepage</th>
   </tr>
-  {% assign sorted_pages = site.pages | sort: 'url' %}
+  {% assign sorted_pages = site.pages|sort: 'url' %}
   {% for page in sorted_pages %}
       {% capture prefix %}{{page.url | truncate: 15, ''}}{% endcapture%}
       {% if prefix == "/members/pages/" %}
