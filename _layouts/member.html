@@ -4,8 +4,8 @@ layout: default
 <h2>{{page.name}}</h2>
 <table>
   <tr><td>Name</td><td>{{page.name}}</td></tr>
-  {% if page.github_id %}<tr><td>Github</td><td><a href="http://github.com/{{page.github_id}}">@{{page.github_id}}</a></td></tr>{% endif %}
-  {% if page.bitbucket_id %}<tr><td>Bitbucket</td><td><a href="http://bitbucket.org/{{page.bitbucket_id}}">@{{page.bitbucket_id}}</a></td></tr>{% endif %}
+  {% if page.github_id %}<tr><td>Github</td><td><a href="http://github.com/{{page.github_id}}">{{page.github_id}}</a></td></tr>{% endif %}
+  {% if page.bitbucket_id %}<tr><td>Bitbucket</td><td><a href="http://bitbucket.org/{{page.bitbucket_id}}">{{page.bitbucket_id}}</a></td></tr>{% endif %}
   {% if page.twitter_id %}<tr><td>Twitter</td><td><a href="http://twitter.com/{{page.twitter_id}}">@{{page.twitter_id}}</a></td></tr>{% endif %}
   {% if page.blog %}<tr><td>Blog</td><td><a href="{{page.blog}}">{{page.blog}}</a></td></tr>{% endif %}
   {% if page.homepage %}<tr><td>Homepage</td><td><a href="{{page.homepage}}">{{page.homepage}}</a></td></tr>{% endif %}
