@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: member
 name: Rag Sagar
 twitter_id : ragsagar
 github_id : ragsagar

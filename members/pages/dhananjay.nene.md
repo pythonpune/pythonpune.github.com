@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: member
 name: Dhananjay Nene
 homepage: http://dhananjaynene.com
 blog: http://blog.dhananjaynene.com

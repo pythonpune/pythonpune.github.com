@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: member
 name: Saager Mhatre
 twitter_id : dexterous
 github_id : dexterous

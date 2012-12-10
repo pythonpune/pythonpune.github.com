@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: member
 name: Aditya Laghate 
 twitter_id : thinrhino
 github_id : thinrhino

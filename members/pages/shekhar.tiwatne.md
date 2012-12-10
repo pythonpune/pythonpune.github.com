@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: member 
 name: Shekhar Tiwatne
 homepage: http://www.flavors.me/shon
 blog: http://shon.github.com 
