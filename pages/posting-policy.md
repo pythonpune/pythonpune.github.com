@@ -9,5 +9,5 @@ We respect the fact that mails reaching users via our forum demand a small amoun
 
 It should be noted, that the following, are explicitly listed as not to be posted on the forum.
 
-* Job Postings (even if related to python). You may consider [Pune Startup Jobs](https://groups.google.com/forum/?fromgroups#!forum/PuneStartupJobs) as an alternative.
-* News / Announcements of events of interest to programmers in general, but of no particular direct relevance to python (irrespective of whether these are within or without Pune city). There are a number of other programming related forums / mailing lists. You could post in the appropriate one and perhaps also on the [PuneTechies](https://www.facebook.com/groups/punetechies) page.
+* Job Postings (even if related to python). 
+* News / Announcements of events of interest to programmers in general, but of no particular direct relevance to python (irrespective of whether these are within or without Pune city). 
