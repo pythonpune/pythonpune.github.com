@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<h2><em>Note: This page and company catalog is still under construction</em></h2>
+<h2>Company Catalog: Companies developing software using Python in Pune</h2>
+<em>Note: This page lists information about companies developing software using python in pune, from the companies themselves or based on the awareness of pythonpune members. Please feel free to contact the site administrators for any corrections etc.</em><br/>
+<table id="companies_table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for page in site.pages %}
+      {% capture prefix %}{{page.url | truncate: 17, ''}}{% endcapture%}
+      {% if prefix == "/companies/pages/" %}
+        <tr>
+          <td><a href="{{page.url}}">{{page.name}}</a></td>
+          <td><a href="{{page.company_url}}">{{page.company_url}}</a></td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+<script>
+  function page_callback() {
+    $("#companies_table tbody tr").tsort();
+  }
+</script>
