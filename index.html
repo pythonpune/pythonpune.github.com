@@ -36,3 +36,12 @@ layout: default
               width="900"
               height="700">
             </iframe>
+
+<script type="text/javascript">
+  function page_callback() {
+    document.getElementById("forum_embed").src =
+      "https://groups.google.com/forum/embed/?place=forum/pythonpune" +
+      "&theme=default&showtabs=false&hideforumtitle=true&showpopout=true" + 
+      encodeURIComponent(window.location.href);
+  }
+</script>

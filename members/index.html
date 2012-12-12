@@ -3,27 +3,36 @@ layout: default
 ---
 <h1>PythonPune Members</h1>
 <em>Note: This page only lists those members who have chosen to publish their information here.</em><br/>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Github</th>
-    <th>Bitbucket</th>
-    <th>Twitter</th>
-    <th>Blog</th>
-    <th>Homepage</th>
-  </tr>
-  {% assign all_pages = site.pages | sort: 'url' %}
-  {% for page in all_pages %}
-    {% capture prefix %}{{page.url | truncate: 15, ''}}{% endcapture%}
-    {% if prefix == "/members/pages/" %}
-      <tr>
-        <td><a href="{{page.url}}">{{page.name}}{% if page.twitter_id %} (@{{page.twitter_id}}){% endif %}</a></td>
-        {% if page.github_id %}<td><a href="http://github.com/{{page.github_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
-        {% if page.bitbucket_id %}<td><a href="http://bitbucket.org/{{page.bitbucket_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
-        {% if page.twitter_id %}<td><a href="http://twitter.com/{{page.twitter_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
-        {% if page.blog %}<td><a href="{{page.blog}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
-        {% if page.homepage %}<td><a href="{{page.homepage}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
-      </tr>
-    {% endif %}
-  {% endfor %}
+<table id="members_table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Github</th>
+      <th>Bitbucket</th>
+      <th>Twitter</th>
+      <th>Blog</th>
+      <th>Homepage</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign all_pages = site.pages | sort: 'url' %}
+    {% for page in site.pages %}
+      {% capture prefix %}{{page.url | truncate: 15, ''}}{% endcapture%}
+      {% if prefix == "/members/pages/" %}
+        <tr>
+          <td><a href="{{page.url}}">{{page.name}}{% if page.twitter_id %} (@{{page.twitter_id}}){% endif %}</a></td>
+          {% if page.github_id %}<td><a href="http://github.com/{{page.github_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
+          {% if page.bitbucket_id %}<td><a href="http://bitbucket.org/{{page.bitbucket_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
+          {% if page.twitter_id %}<td><a href="http://twitter.com/{{page.twitter_id}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
+          {% if page.blog %}<td><a href="{{page.blog}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
+          {% if page.homepage %}<td><a href="{{page.homepage}}">&#x2713;</a></td>{% else %}<td>&nbsp;</td>{% endif %}
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
 </table>
+<script>
+  function page_callback() {
+    $("#members_table tbody tr").tsort();
+  }
+</script>

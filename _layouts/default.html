@@ -8,7 +8,14 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
     <link rel="alternate" type="application/atom+xml" title="Atom Feed for PythonPune" href="/atom.xml" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
+    <script type="text/javascript" src="/javascripts/jquery.tinysort.min.js"></script>  
     <title>PythonPune by pythonpune</title>
+    <script type="text/javascript">
+      function page_callback() {
+        // do nothing;
+      }
+    </script>
   </head>
 
   <body>
@@ -38,9 +45,8 @@
 
   </body>
     <script type="text/javascript">
-      document.getElementById("forum_embed").src =
-        "https://groups.google.com/forum/embed/?place=forum/pythonpune" +
-        "&theme=default&showtabs=false&hideforumtitle=true&showpopout=true" + 
-        encodeURIComponent(window.location.href);
+      $(document).ready(function() {
+        page_callback();
+      });
     </script>
 </html>
