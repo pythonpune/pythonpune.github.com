@@ -18,6 +18,7 @@ title: Resources for Python
 
 ### For intermediate programmers
 * [Dive Into Python](http://www.diveintopython.net/toc/index.html)
+* [Dive Into Python 3](http://getpython3.com/diveintopython3/) (for Python 3)
 
 ## Python API Reference
 * [Python Documentation](http://docs.python.org) _(Note: There is a drop down box at the top left to select the python version)_
