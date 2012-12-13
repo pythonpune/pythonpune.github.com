@@ -27,3 +27,5 @@ If you would like to add a file say to the [members listing](http://pune.python.
 ### Making simple changes to an existing file.
 If you want to edit a file (eg. an existing member listing in [this directory](https://github.com/pythonpune/pythonpune.github.com/tree/master/members/pages) or an existing company listing [here](https://github.com/pythonpune/pythonpune.github.com/tree/master/companies/pages)), just click on the file and you should see a "Edit" button somewhere near the top of the screen (along with Raw, Blame and History buttons). Clicking on the "Edit" button should get you started by github automatically forking the site and eventually helping you submit a pull request. For details, read this useful blog post [Forking with the Edit Button](https://github.com/blog/844-forking-with-the-edit-button).  
 
+### More complex changes
+As mentioned eariler there is a lot more you need to learn. One of the pages which will help you get started is [How to GitHub: Fork, Branch, Track, Squash and Pull Request](http://gun.io/blog/how-to-github-fork-branch-and-pull-request/)
