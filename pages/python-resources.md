@@ -11,7 +11,7 @@ title: Resources for Python
 #### Beginners
 * [A Byte of Python](http://www.swaroopch.com/notes/Python/)
 * [Python.org Python Tutorial](http://docs.python.org/3/tutorial/index.html) _(Note: Python version can be selected from dropdown at top left)_
-* [MIT 6.00: Introduction to Computer Science and Programming (Spring 2011)] (http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) _The course is led by Prof. John Guttag, taught with Python and is structured particularly for remote students._
+* [MIT 6.00: Introduction to Computer Science and Programming (Spring 2011)] (http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) _(The course is led by Prof. John Guttag, taught with Python and is structured particularly for remote students.)_
 
 #### Exercises Driven Learning
 * [Learn Python the Hard Way](http://learnpythonthehardway.org) _(Do not let the title fool you)_
@@ -37,7 +37,7 @@ title: Resources for Python
 
 ### Other Python interest groups
 * [Python India](http://python.org.in)
-* [CheckIO: Python-programming-driven online adventure game] (http://www.checkio.org/) _Solve problems with Python to advance to new levels. It welcomes beginner and experienced programmers. It is new (as of Dec 2012), so could be buggy sometimes. Also turn your "Proper English" language filters off :)_
+* [CheckIO: Python-programming-driven online adventure game] (http://www.checkio.org/) _(Solve problems with Python to advance to new levels. It welcomes beginner and experienced programmers. It is new (as of Dec 2012), so could be buggy sometimes. Also turn your "Proper English" language filters off :)_
 
 ### Python Events
 * [Pycon](http://pycon.org)
