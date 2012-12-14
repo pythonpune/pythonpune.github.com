@@ -3,6 +3,10 @@ layout: default
 ---
         <h1>PythonPune</h1>
 
+            <ul>
+            <li><a href="/pages/welcome.html">Message</a> for first time visitors to the site</li>
+            </ul>
+
           <h2>Projects</h2>
 
             <ul>
@@ -36,3 +40,12 @@ layout: default
               width="900"
               height="700">
             </iframe>
+
+<script type="text/javascript">
+  function page_callback() {
+    document.getElementById("forum_embed").src =
+      "https://groups.google.com/forum/embed/?place=forum/pythonpune" +
+      "&theme=default&showtabs=false&hideforumtitle=true&showpopout=true" + 
+      encodeURIComponent(window.location.href);
+  }
+</script>

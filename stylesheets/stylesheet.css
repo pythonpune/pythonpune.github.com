@@ -147,7 +147,7 @@ ul li:before {
   line-height: 16px;
 }
 
-.container ul li { 
+#header_menu ul li { 
   display: inline; 
   padding-left: 40px;
 }
@@ -259,4 +259,9 @@ a {
 
 #footer p {
   font-size: 8px;
+}
+
+/* Added by Palak */
+.subscription-box{
+  font-size: 12px;
 }

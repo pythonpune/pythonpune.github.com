@@ -8,20 +8,48 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
     <link rel="alternate" type="application/atom+xml" title="Atom Feed for PythonPune" href="/atom.xml" />
-    <title>PythonPune by pythonpune</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
+    <script type="text/javascript" src="/javascripts/jquery.tinysort.min.js"></script>  
+    <title>PythonPune - Presence of Python Pune Community on Internet</title>
+    <script type="text/javascript">
+      function page_callback() {
+        // do nothing;
+      }
+    </script>
   </head>
 
   <body>
 
     <header>
-      <div class="container">
-        <h1>PythonPune</h1>
-        <h2>Pune Pythonistas and their discussions and events.</h2>
+      <div class="container" id="header_menu">
+        <table border=0 cellspacing=0>
+          <tr>
+            <td>
+              <h1><a href="/">PythonPune</a></h1>
+              <h2>Pune Pythonistas and their discussions and events.</h2>
+            </td>                      
+            <td>
+              <div class="subscription-box">
+                <!-- <img src="https://groups.google.com/forum/my-groups-color.png" alt="Google Groups">  -->
+                <h4>Subscribe to PythonPune Google Group</h4>                          
+                <form action="http://groups.google.com/group/PythonPune/boxsubscribe">
+                  Email: <input type=text name=email>
+                  <input type=submit name="sub" value="Subscribe">	
+                </form>
+              </div>
+            </td>
+          </tr>                    
+        </table>
         <ul>
-            <li><a href="/meetings">Meetings</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/members">Members</a></li>
-            <li><a href="http://groups.google.com/group/pythonpune">Google Group</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="http://groups.google.com/group/pythonpune">Google Group</a></li>
+          <li><a href="/meetings">Meetings</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/members">Members</a></li>
+          <li><a href="/resources">Resources</a></li>
+          <br/>
+          <li><a href="/companies">Company Catalog <em>(Under Construction)</em></a></li>
+          <li><a href="http://python-india-jobs.github.com">Python India Jobs <em>(Under Construction)</em></a></li>
         </ul>
       </div>
     </header>
@@ -38,9 +66,8 @@
 
   </body>
     <script type="text/javascript">
-      document.getElementById("forum_embed").src =
-        "https://groups.google.com/forum/embed/?place=forum/pythonpune" +
-        "&theme=default&showtabs=false&hideforumtitle=true&showpopout=true" + 
-        encodeURIComponent(window.location.href);
+      $(document).ready(function() {
+        page_callback();
+      });
     </script>
 </html>

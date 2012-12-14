@@ -5,18 +5,18 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>PythonPune</title>
-  <link href="http://pythonpune.github.com/"/>
-  <link type="application/atom+xml" rel="self" href="http://pythonpune.github.com/atom.xml"/>
+  <link href="http://pune.python.org.in/"/>
+  <link type="application/atom+xml" rel="self" href="http://pune.python.org.in/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://pythonpune.github.com/</id>
+  <id>http://pune.python.org.in/</id>
   <author>
     <name>PythonPune</name>
   </author>
  
   {% for post in site.posts %}
   <entry>
-    <id>http://pythonpune.github.com{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://pythonpune.github.com{{ post.url }}"/>
+    <id>http://pune.python.org.in{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://pune.python.org.in{{ post.url }}"/>
     <title>{{ post.title }}</title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>

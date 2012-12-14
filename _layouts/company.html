@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<h1><em>Note: This page and company catalog is still under construction</em></h1>
+<h2>{{page.name}}</h2>
+<table>
+  <tr><td>Name</td><td>{{page.name}}</td></tr>
+  {% if page.company_url %}<tr><td>URL</td><td><a href="{{page.company_url}}">{{page.company_url}}</a></td></tr>{% endif %}
+</table>
+<br/>
+{{ content }}
