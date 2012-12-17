@@ -16,6 +16,7 @@ title: Resources for Python
 #### Exercises Driven Learning
 * [Learn Python the Hard Way](http://learnpythonthehardway.org) _(Do not let the title fool you)_
 * [Python Koans](https://bitbucket.org/gregmalcolm/python_koans)
+* [CheckIO: Python-programming-driven online adventure game] (http://www.checkio.org/) _(Solve problems with Python to advance to new levels. It welcomes beginner and experienced programmers. It is new (as of Dec 2012), so could be buggy sometimes. Also turn your "Proper English" language filters off :)_
 
 #### For intermediate programmers
 * [Dive Into Python](http://www.diveintopython.net/toc/index.html)
@@ -37,7 +38,6 @@ title: Resources for Python
 
 ### Other Python interest groups
 * [Python India](http://python.org.in)
-* [CheckIO: Python-programming-driven online adventure game] (http://www.checkio.org/) _(Solve problems with Python to advance to new levels. It welcomes beginner and experienced programmers. It is new (as of Dec 2012), so could be buggy sometimes. Also turn your "Proper English" language filters off :)_
 
 ### Python Events
 * [Pycon](http://pycon.org)
