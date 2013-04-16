@@ -8,8 +8,6 @@ github_id : bkvirendra
 bitbucket_id:
 ---
 
-## Hi,
+## Hello,
 
-I m student/Freelancer, I love making side-projects!
-
-trigger
+I m python love! Love hacking with API's
