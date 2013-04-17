@@ -10,4 +10,4 @@ bitbucket_id:
 
 ## Hello,
 
-I m python love! Love hacking with API's
+I m python lover! Love hacking with API's
