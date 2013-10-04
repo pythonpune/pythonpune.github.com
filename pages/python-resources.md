@@ -30,8 +30,8 @@ title: Resources for Python
 * [Python.org resources for Programmers](http://wiki.python.org/moin/BeginnersGuide/Programmers)
 * [Python.org resources for Non Programmers](http://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
 
-### Comprehensive collection of python packages
-* [Pypi](http://pypi.python.org/pypi)
+### The definitive Python Package Index (aka CheeseShop)
+* [PyPI](http://pypi.python.org/pypi)
 
 ### Discussion Forums
 * [Http interface to comp.lang.python via google groups](https://groups.google.com/forum/?fromgroups#!forum/comp.lang.python)
