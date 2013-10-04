@@ -8,5 +8,4 @@ We've created a website for PythonPune. Hope this helps put together various inf
 
 The website is accessible at [http://pune.python.org.in](http://pune.python.org.in).
 
-*[Update 2012-12-11]*: updated URL to point to a sub-domain of python.org.in.
-
+*Update 2012-12-11: updated URL to point to a sub-domain of python.org.in.*
