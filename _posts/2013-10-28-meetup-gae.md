@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Meetup on October 28, 2013. Google App Engine Python.
+title: Meetup on October 26, 2013. Google App Engine Python.
 category: meeting-notes
 ---
 
