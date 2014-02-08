@@ -39,6 +39,7 @@ title: Resources for Python
 ### Discussion Forums
 * [Http interface to comp.lang.python via google groups](https://groups.google.com/forum/?fromgroups#!forum/comp.lang.python)
 * [Stack Overflow Q&A related to Python](http://stackoverflow.com/questions/tagged/python)
+* [Stack Overflow Q&A related to Python 3.x](http://stackoverflow.com/questions/tagged/python-3.x)
 
 ### Other Python interest groups
 * [Python India](http://python.org.in)
