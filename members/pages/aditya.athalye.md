@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Aditya Athalye
+full_name: Aditya Athalye
 homepage: http://adityaathalye.com
 blog: http://adityaathalye.wordpress.com
 twitter_id : adityaathalye

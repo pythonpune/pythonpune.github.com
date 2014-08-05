@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Rag Sagar
+full_name: Rag Sagar
 twitter_id : ragsagar
 github_id : ragsagar
 bitbucket_id: ragsagar_mq

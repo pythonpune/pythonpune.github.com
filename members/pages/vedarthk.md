@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Vedarth Kulkarni
+full_name: Vedarth Kulkarni
 homepage: http://vedarthz.in
 twitter_id : vedarthk
 github_id : vedarthk

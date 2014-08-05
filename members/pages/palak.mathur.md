@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Palak Mathur
+full_name: Palak Mathur
 homepage: http://palakmathur.github.com
 blog: http://palakmathur.wordpress.com
 twitter_id: palak

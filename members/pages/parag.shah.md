@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Parag Shah 
+full_name: Parag Shah 
 homepage:  
 blog: http://blog.adaptivesoftware.biz
 twitter_id : coding_insights

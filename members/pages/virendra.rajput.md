@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Virendra Rajput
+full_name: Virendra Rajput
 homepage: http://virendra.me/aboutme
 blog: http://virendra.me/
 twitter_id : bkvirendra

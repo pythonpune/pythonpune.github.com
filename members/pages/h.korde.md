@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Harshad Korde
+full_name: Harshad Korde
 twitter_id : korde
 github_id : hkorde
 bitbucket_id: 

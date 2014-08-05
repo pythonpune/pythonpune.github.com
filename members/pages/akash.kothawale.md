@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Akash Kothawale
+full_name: Akash Kothawale
 homepage: http://decached.com
 blog: http://decached.com/posts.html
 twitter_id : decached

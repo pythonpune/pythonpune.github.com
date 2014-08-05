@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Navin Kabra
+full_name: Navin Kabra
 homepage: http://punetech.com/navin
 blog: http://smritiweb.com/navin
 twitter_id : _navin

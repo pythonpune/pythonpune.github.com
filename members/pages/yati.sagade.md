@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Yati Sagade
+full_name: Yati Sagade
 twitter_id : yati_itay
 github_id : yati-sagade
 bitbucket_id: yati_sagade

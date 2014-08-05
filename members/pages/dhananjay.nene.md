@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Dhananjay Nene
+full_name: Dhananjay Nene
 homepage: http://dhananjaynene.com
 blog: http://blog.dhananjaynene.com
 twitter_id : dnene

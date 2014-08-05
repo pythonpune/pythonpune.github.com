@@ -1,6 +1,6 @@
 ---
 layout: member
-name: Saager Mhatre
+full_name: Saager Mhatre
 twitter_id : dexterous
 github_id : dexterous
 bitbucket_id: dexterous
