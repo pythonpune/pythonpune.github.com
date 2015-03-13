@@ -19,7 +19,6 @@ title: Resources for Python
 * [Python Koans](https://bitbucket.org/gregmalcolm/python_koans)
 * [CheckIO: Python-programming-driven online adventure game](http://www.checkio.org/) _(Solve problems with Python to advance to new levels. It welcomes beginner and experienced programmers. It is new (as of Dec 2012), so could be buggy sometimes. Also turn your "Proper English" language filters off :)_
 * [Python track](http://www.codecademy.com/tracks/python) @ [Codeacademy](http://www.codecademy.com/)
-* [PythonMonk](http://pythonmonk.com) _(An interactive Python book)_
 
 #### For intermediate programmers
 * [Dive Into Python](http://www.diveintopython.net/toc/index.html)
