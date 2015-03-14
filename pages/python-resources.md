@@ -39,6 +39,7 @@ title: Resources for Python
 * [Stack Overflow Q&A related to Python](http://stackoverflow.com/questions/tagged/python)
 
 ### Other Python interest groups
+* [Python Software Society of India](http://pssi.org.in/)
 * [Python India](http://python.org.in)
 
 ### Python Events
