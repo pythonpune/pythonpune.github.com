@@ -11,7 +11,7 @@ title: Resources for Python
 #### Beginners
 * [A Byte of Python](http://www.swaroopch.com/notes/Python/)
 * [Python.org Python Tutorial](http://docs.python.org/3/tutorial/index.html) _(Note: Python version can be selected from dropdown at top left)_
-* [MIT 6.00: Introduction to Computer Science and Programming (Spring 2011)] (http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) _(The course is led by Prof. John Guttag, taught with Python and is structured particularly for remote students.)_
+* [MIT 6.00: Introduction to Computer Science and Programming (Spring 2011)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) _(The course is led by Prof. John Guttag, taught with Python and is structured particularly for remote students.)_
 * [CS101 course](https://www.udacity.com/course/cs101) @ [Udacity](https://www.udacity.com/) _(While not strictly a Python course, it users Python as the medium of instruction.)_
 
 #### Exercises Driven Learning
