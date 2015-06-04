@@ -7,7 +7,7 @@ This is the content for the PythonPune website.
 
 On pushing any changes to github, the same are automatically processed by jekyll and published. 
 
-To run locally, checkout the project and run "jekyll --serve". 
+To run locally, checkout the project and run "jekyll serve". 
 
 Note on changing themes 
 ========================
