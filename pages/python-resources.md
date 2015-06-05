@@ -34,7 +34,6 @@ title: Resources for Python
 
 ### The definitive Python Package Index (aka CheeseShop)
 * [PyPI](http://pypi.python.org/pypi)
-* [Wheel](https://pypi.python.org/pypi/wheel)
 
 ### Discussion Forums
 * [Http interface to comp.lang.python via google groups](https://groups.google.com/forum/?fromgroups#!forum/comp.lang.python)
