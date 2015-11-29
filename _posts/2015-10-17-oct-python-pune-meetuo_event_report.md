@@ -55,5 +55,7 @@ He explained:
 
 Slides link to [How to contribute to Virt-Manager](http://www.slideshare.net/godfatherabhi/python-pune-october-meetup-2015).
 
+As a part of Module of the Month, [Suraj](https://twitter.com/surajssd009005) talked about flake8 module, and how it different from pep8 and pylint.
+
 Finally, the meetup ended with a good feedback.
 Thanks to Red Hat and speakers for supporting us in organizing meetup.
