@@ -1,4 +1,8 @@
-# Python3-101 January Python Pune Meetup 2016
+---
+layout: entry
+title: January Python Pune Meetup 2016
+category: meeting-notes
+---
 
 Python Pune meetup have orgnaized a workshop on Python3 on 23rd Jan, 2016 at Red Hat, Pune (India) Office. It was basically aimed for the newbies who want to learn the Python and also for those who wanted to learn the differences between Python2 and Python3. 
 
