@@ -3,9 +3,9 @@ layout: member
 full_name: Aditya Athalye
 homepage: http://adityaathalye.com
 blog: http://adityaathalye.wordpress.com
-twitter_id : adityaathalye
-github_id : lambdadi
-bitbucket_id: lambdadi
+twitter_id : 
+github_id : adityaathalye
+bitbucket_id: adityaathalye
 ---
 
 ## Hi
