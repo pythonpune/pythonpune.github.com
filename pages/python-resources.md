@@ -48,4 +48,4 @@ title: Resources for Python
 ### Python Events
 * [Pycon](http://pycon.org)
 * [Pycon India](http://in.pycon.org)
-* [SciPy India](scipy.in/)
+* [SciPy India](http://scipy.in/)
